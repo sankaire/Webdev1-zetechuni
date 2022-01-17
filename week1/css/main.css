@@ -11,4 +11,9 @@ h1, h2, ul, li{
     text-align: center;
     list-style-type: none;
     padding: 10px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(57, 57, 223);
 }
