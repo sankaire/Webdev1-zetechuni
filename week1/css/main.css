@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+h1, h2, ul, li{
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
