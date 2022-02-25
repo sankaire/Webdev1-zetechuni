@@ -7,33 +7,110 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" id="form">
-        <div>
-            <label for="">Your Name</label>
-            <input type="text" id="Name" class="input"/>
+    <!-- navigation menu -->
+    <nav class="nav-bar">
+        <div class="logo">
+           <h1>Tepela.</h1>
         </div>
-        <div>
-            <label for="">Email</label>
-            <input type="email" name="email" id="email" class="input"/>
+        <div class="nav-links">
+            <ul>
+                <li>
+                    <a href="./pages/skills.html">skills</a>
+                </li>
+                <li>
+                    <a href="/">about</a>
+                </li>
+                <li>
+                    <a href="./pages//Projects.html">projects</a>
+                </li>
+                <l1>
+                    <a href="./pages/contact.html">contacts</a>
+                </l1>
+            </ul>
         </div>
-        <div>
-            <label for="subject">Subject</label>
-            <input type="text" name="subject" id="subject" class="input">
-        </div>
-        <div>
-            <label for="product">product</label>
-            <select name="product" id=product">
-            <option value="web">Web Application</option>
-            <option value="desktop">Desktop Application</option>
-            <option value="mobile">Mobile Application</option>
-            <option value="other">other</option>
-            </select>
-        </div>
-        <div>
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="10" rows="10" class="input"></textarea>
-        </div>
-        <input type="submit" value="send" class="btn">
-    </form>
+    </nav>
+    <!-- hero section -->
+    <header>
+        <img 
+        src="../images/contact.png" 
+        alt=""
+        width="300"
+        />
+        <h1>Contact</h1>
+        <p>
+            Fill this form and I 
+            will get back to you in no time
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+            <form action="" id="form">
+                <div>
+                    <label for="">Your Name</label>
+                    <input type="text" id="Name" class="input"
+                    placeholder="Your name"/>
+                </div>
+                <div>
+                    <label for="">Email</label>
+                    <input type="email" name="email" id="email" class="input"
+                    placeholder="Email"/>
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" class="input"
+                    placeholder="Subject">
+                </div>
+                <div>
+                    <label for="product">product</label>
+                    <select name="product" id=product">
+                    <option value="web">Web Application</option>
+                    <option value="desktop">Desktop Application</option>
+                    <option value="mobile">Mobile Application</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea 
+                    name="message" id="message" 
+                    cols="10" rows="10" 
+                    class="input"
+                    placeholder="Message">
+                    </textarea>
+                </div>
+                <div>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    <label for="subscribe">Subscribe for the newslater</label>
+                </div>
+                <input type="submit" value="send" class="btn">
+            </form>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <ul>
+            <li>
+                <a href="">Github</a>
+            </li>
+            <li>
+                <a href="">Email</a>
+            </li>
+            <li>
+                <a href="">Stackoverflow</a>
+            </li>
+            <li>
+                <a href="">Linkedin</a>
+            </li>
+            <li>
+                <a href="">Instagram</a>
+            </li>
+            <li>
+                <a href="">Twitter</a>
+            </li>
+        </ul>
+        <p>All rights Reserved &copy; 2022
+            <a href="">The black hut guy</a>
+        </p>
+    </footer>
 </body>
 </html>
